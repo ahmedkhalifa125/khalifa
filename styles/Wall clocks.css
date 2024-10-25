@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(193, 183, 183);
+}
+
+.card{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+img {
+    width: 200px;
+    height: 300px;
+}

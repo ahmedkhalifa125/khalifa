@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar-brand{
+    color: black;
+    font-size: 30px;
+
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+
+}
+.dropdown-menu{
+    background-color: #546dff;
+    color: #000000;
+}
+.dropdown-item{
+    font-size: 30px;
+    transition: all .3s ease;
+}
+
+
+.nav-item{
+    
+    padding: 0 10px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.navbar {
+    background-color: rgb(167, 167, 167);
+    box-shadow: 0px 7px 31px 5px #000000;
+    position: fixed; /* لجعل الشريط ثابتًا */
+    width: 100%; /* لجعله بعرض الصفحة بالكامل */
+    z-index: 1000; /* لضمان أن الشريط يظهر فوق المحتوى الآخر */
+}
+.section1{
+    width: 100vh;
+    
+    
+}
+img{
+    width: 700px;
+    height: 400px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 8px 2px #a8a8a8;
+
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* المسافة اللي عاوزها بين كل جزء */
+    background-color: blue;
+
+  }
+  
+  .section1 {
+    margin-bottom: 10px;
+    margin-top: 80px;
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 674px) and (max-width: 1331px) {
+    
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  }
+    
+.navbar {
+    background-color: rgb(167, 167, 167);
+    box-shadow: 0px 7px 31px 5px #000000;
+    position: fixed; 
+    width: 100%; 
+    left: 0%;
+    top: 0%;
+    z-index: 1000;
+}
+    
+  }
